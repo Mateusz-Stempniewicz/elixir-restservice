@@ -48,13 +48,14 @@ config :logger, :console, format: "[$level] $message\n"
 # in production as building large stacktraces may be expensive.
 config :phoenix, :stacktrace_depth, 20
 
+# Examples
 # Configure your database
 # config :todoList, TodoList.Repo,
 #   adapter: Ecto.Adapters.MySQL,
-#   username: "root",
-#   password: "root!",
-#   database: "todolist",
-#   hostname: "localhost",
+#   username: "user_name",
+#   password: "password",
+#   database: "database_name",
+#   hostname: "host_name",
 #   pool_size: 10
 
 import_config "dev.secret.exs"
